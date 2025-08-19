@@ -1,0 +1,30 @@
+site_name: MkDocs on GitHub Pages test documentation
+site_url: https://url_to_documentation
+repo_name: github_pages_trial
+repo_url: https://github.com/shreyas-arvindekar/github_pages_trial.git
+edit_uri: blob/main/docs/
+
+theme:
+  name: material
+  font:
+    text: Noto Sans
+  palette:
+    scheme: slate
+    primary: blue
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.extra
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - toc:
+      permalink: true
+      toc_depth: 5
